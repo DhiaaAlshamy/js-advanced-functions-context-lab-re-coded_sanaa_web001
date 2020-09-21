@@ -9,7 +9,7 @@
  for you to use if you need it!
  */
 
-let allWagesFor = function () {
+/*let allWagesFor = function () {
     let eligibleDates = this.timeInEvents.map(function (e) {
         return e.date
     })
@@ -20,6 +20,7 @@ let allWagesFor = function () {
 
     return payable
 }
+*/
 let createEmployeeRecord = function(row){
     return {
         firstName: row[0],
